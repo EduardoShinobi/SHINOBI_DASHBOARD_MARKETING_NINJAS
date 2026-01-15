@@ -1,7 +1,7 @@
 :root {
   color-scheme: dark;
   font-family: "Inter", "SF Pro Display", system-ui, sans-serif;
-  background-color: #05070f;
+  background-color: #000000;
   color: #f7f7ff;
 }
 
@@ -11,7 +11,7 @@
 
 body {
   margin: 0;
-  background: radial-gradient(circle at top, #1a203a, #05070f 55%);
+  background: radial-gradient(circle at top, #1a203a, #000000 55%);
 }
 
 #root {
@@ -165,7 +165,7 @@ body {
   padding: 4px 8px;
   border-radius: 999px;
   background: rgba(89, 102, 247, 0.2);
-  color: #b5c0ff;
+  color: #383838;
 }
 
 .workflow-list {
@@ -205,12 +205,12 @@ body {
 
 .pill.active {
   background: rgba(66, 223, 165, 0.2);
-  color: #8cffd1;
+  color: #00fffb;
 }
 
 .pill.scheduled {
   background: rgba(247, 213, 116, 0.2);
-  color: #ffe7a1;
+  color: #8c0000;
 }
 
 .fabric {
@@ -240,7 +240,7 @@ body {
   width: 96px;
   height: 96px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #4a61ff, #8d5bff);
+  background: linear-gradient(135deg, #000000, #6e6e70);
   border: none;
   color: white;
   font-weight: 600;
@@ -276,7 +276,7 @@ body {
 
 .bottom-sheet {
   width: min(680px, 100%);
-  background: #0b0f1f;
+  background: #383838;
   border-radius: 24px 24px 0 0;
   border: 1px solid rgba(255, 255, 255, 0.12);
   padding: 24px;
