@@ -96,10 +96,9 @@ export default function App() {
       <header className="hero">
         <div>
           <p className="eyebrow">Master Shinobi Dashboard</p>
-          <h1>One hub. Every system. Fully synchronized.</h1>
+          <h1>A-I-A HUB</h1>
           <p className="subtitle">
-            A single-page command center for stable, pre-AI automation workflows, fully up to date and
-            production-ready.
+            A-I-A HUB 
           </p>
         </div>
         <div className="status-card">
@@ -205,7 +204,7 @@ export default function App() {
         onClick={() => setPanelOpen(true)}
         style={{ transform: `translate(${position.x}px, ${position.y}px)` }}
       >
-        <span>Tools</span>
+        <span>WEAPONS</span>
         <div className="tool-orb-ring" />
       </button>
 
